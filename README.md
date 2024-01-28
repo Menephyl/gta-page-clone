@@ -7,4 +7,4 @@
 
  # curti esse efeito apos a tela > background: linear-gradient(90deg, rgba(0,0,0,.85),rgba(0,0,0,.7) 35%, transparent 65%); vou usar no portifolio
  # niceee
- 
+ # transition: all .4s ease-in; animação
