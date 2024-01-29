@@ -57,10 +57,18 @@ body .cabecalho  {
 
 }
 @media (max-width:425px){
+   
+   
     main::after{
         background: linear-gradient(90deg, rgba(0,0,0,.85),rgba(0,0,0,.7) 35%, transparent 65%);
      
     }
+    body .cabecalho .menu a{
+        justify-content:center;
+        flex-direction: column;
+        padding: 80px 0;
+        gap: 10px;
+    }  
     .compre-ja .cartao .capa-do-jogo{
         width: 200px;
     }
@@ -68,4 +76,8 @@ body .cabecalho  {
     main.btn-comprar{
         width: 20px;
 }
+    .lu li{
+      align-self: center;
+      font-size: 10px;
+    }
 }

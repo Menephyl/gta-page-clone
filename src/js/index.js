@@ -20,16 +20,11 @@ objetivo 1 - Quando o usuário clicar no botão de seleção de plataformas deve
 objetivo 2 - caso a lista de botões de plataformas ja esteja aparecendo e o usuário clicar no botão de fachar, o conteudo deve ser escondido.
 
     PASSO 1 - VERIFICAR SE O BOTAO JA ESTA ABERTO, SE SIM , DEVEMOS REMOVER A CLASSE ATIVO PARA QUE ELE ESCONDA O CONTEUDO NOVAMENTE.
-
-
-
-*/
-
-/* 
-objetivo 1 - Quando o usuário clicar no botão de seleção de plataformas deve abrir uma caixa de seleção de plataforma
 ok
 
+
 */
+
 
 
 const botao = document.querySelector(".btn-plataforma")
@@ -39,7 +34,8 @@ const elementoPlataformas = document.querySelector(" .compre-ja .btn-plataforma 
 botao.addEventListener("click",() => {
 //console.log(elementoPlataformas.classList), 
 //elementoPlataformas.classList.add('ativo')
-
+// botao.addEvemtListener.toggle(`ativo`)
+ 
 if(elementoPlataformas.classList.contains("ativo")){
     elementoPlataformas.classList.remove('ativo')
 }else{
