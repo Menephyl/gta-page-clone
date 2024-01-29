@@ -1,0 +1,5 @@
+@media( max-width:1024){
+    .home .informacoes{
+    background-color: blue;
+}
+}
