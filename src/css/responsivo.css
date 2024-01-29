@@ -1,5 +1,71 @@
 @media( max-width:1024px){
+
+
+body .cabecalho  {
+        justify-content:center;
+        flex-direction: column;
+        padding: 80px 0;
+        gap: 15px;
+
+    }
+    .cabecalho .menu li a{
+        padding: 15px;
+
+    }
     .home .informacoes{
-    background-color: blue;
+        padding: 30px;
+
+    }
+    .home .informacoes img{
+        max-width: 100px;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 40px;
+    }
+    .compre-ja .cartao{
+        width: 70%;
+    }
+    
+    .home .informacoes .btn-comprar{
+        width: 60%;
+        font-size: 15px;
+        font-size: bolder;
+    }
+    .home .informações .btn-comprar:hover{
+    background-color: aliceblue;
+    color: black;
+    }
+
+    .compre-ja .informacoes .plataformas{
+        flex-direction: column;
+    }
+    .compre-ja .informacoes h3{
+    font-size: 35px;
+}
+    .compre-ja .informacoes .plataformas{
+        flex-direction: column;
+    }
+    .btn-plataforma{
+        margin-top: 15px;
+        padding: 15px;
+
+}
+    .btn-comprar{
+            width: 100%;
+}
+
+}
+@media (max-width:425px){
+    main::after{
+        background: linear-gradient(90deg, rgba(0,0,0,.85),rgba(0,0,0,.7) 35%, transparent 65%);
+     
+    }
+    .compre-ja .cartao .capa-do-jogo{
+        width: 200px;
+    }
+    
+    main.btn-comprar{
+        width: 20px;
 }
 }

@@ -119,7 +119,7 @@ border-bottom: 2px solid #fff;
 }
 
 .compre-ja{
-    background-color: rgba(10, 9, 9, 0.144);
+    background-color: rgb(10, 9, 9);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -175,7 +175,7 @@ border-bottom: 2px solid #fff;
     gap: 32px;
 
 }
-.compre-ja .btn-plataforma .plataformas1{
+.compre-ja .btn-plataforma .plataformas1.ativo{
     margin-top:10px;
     display:flex;
     flex-direction: column;
