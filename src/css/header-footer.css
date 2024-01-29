@@ -175,7 +175,7 @@ border-bottom: 2px solid #fff;
     gap: 32px;
 
 }
-.compre-ja .btn-plataforma .plataformas1.ativo{
+.compre-ja .btn-plataforma .plataformas1{
     margin-top:10px;
     display:flex;
     flex-direction: column;
